@@ -1,0 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Dataset (never commit raw data)
+data/camvid/
+data/*.tgz
+data/*.zip
+
+# Model checkpoints / weights
+models/checkpoints/*.pth
+*.pth
+*.pt
+
+# Outputs
+outputs/predictions/*
+outputs/overlays/*
+outputs/plots/*
+outputs/logs/*
+!outputs/predictions/.gitkeep
+!outputs/overlays/.gitkeep
+!outputs/plots/.gitkeep
+!outputs/logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
