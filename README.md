@@ -45,9 +45,6 @@ Semantic_Segmentation_CamVid/
 ├── app/
 │   └── app.py                # local demo: run inference on one image
 │
-├── notebooks/
-│   └── original_notebook.ipynb  # original Colab notebook, for reference
-│
 ├── models/checkpoints/       # trained checkpoints (best.pth, last.pth)
 ├── outputs/                  # predictions, overlays, plots, logs
 │
